@@ -2,10 +2,12 @@ export class AuthService{
     loggedIn=false;
     login(){
         this.loggedIn=true;
+        console.log(this.loggedIn);
     }
 
     logout(){
         this.loggedIn=false;
+        console.log(this.loggedIn);
     }
 
    isAuthenticated(){
